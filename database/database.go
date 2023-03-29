@@ -3,7 +3,9 @@ package database
 import (
 	"fmt"
 	"os"
+    "log"
 
+    "github.com/bengin34/depixen/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 

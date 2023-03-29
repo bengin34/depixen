@@ -1,7 +1,7 @@
 package main
 
 import "github.com/gofiber/fiber/v2"
-import "github.combengin34/depixen/database"
+import "github.com/bengin34/depixen/database"
 
 func main() {
 	database.ConnectDb()
